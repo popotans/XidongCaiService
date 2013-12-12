@@ -1,0 +1,10 @@
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\快盘\project\XidongCaiService\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AddTaskForm.resources

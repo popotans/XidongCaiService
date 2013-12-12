@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SaveProcInstIDCallBack">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProcInstID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveProcInstIDCallBackResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ProcInstCompleteCallBackV2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProcInstID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HTTitle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TempID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="StartDate" nillable="true" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsApproved" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcInstCompleteCallBackV2Response">
+        <s:complexType />
+      </s:element>
+      <s:element name="ProcInstCompleteCallBack">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProcInstID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsApproved" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcInstCompleteCallBackResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ProcInstCompleteCallBackForFinanceWillSignNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubSystemType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FinanceWillSignNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsApproved" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcInstCompleteCallBackForFinanceWillSignNoResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SaveProcInstIDCallBackSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveProcInstIDCallBack" />
+  </wsdl:message>
+  <wsdl:message name="SaveProcInstIDCallBackSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveProcInstIDCallBackResponse" />
+  </wsdl:message>
+  <wsdl:message name="ProcInstCompleteCallBackV2SoapIn">
+    <wsdl:part name="parameters" element="tns:ProcInstCompleteCallBackV2" />
+  </wsdl:message>
+  <wsdl:message name="ProcInstCompleteCallBackV2SoapOut">
+    <wsdl:part name="parameters" element="tns:ProcInstCompleteCallBackV2Response" />
+  </wsdl:message>
+  <wsdl:message name="ProcInstCompleteCallBackSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcInstCompleteCallBack" />
+  </wsdl:message>
+  <wsdl:message name="ProcInstCompleteCallBackSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcInstCompleteCallBackResponse" />
+  </wsdl:message>
+  <wsdl:message name="ProcInstCompleteCallBackForFinanceWillSignNoSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcInstCompleteCallBackForFinanceWillSignNo" />
+  </wsdl:message>
+  <wsdl:message name="ProcInstCompleteCallBackForFinanceWillSignNoSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcInstCompleteCallBackForFinanceWillSignNoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WfServiceSoap">
+    <wsdl:operation name="SaveProcInstIDCallBack">
+      <wsdl:input message="tns:SaveProcInstIDCallBackSoapIn" />
+      <wsdl:output message="tns:SaveProcInstIDCallBackSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBackV2">
+      <wsdl:input message="tns:ProcInstCompleteCallBackV2SoapIn" />
+      <wsdl:output message="tns:ProcInstCompleteCallBackV2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBack">
+      <wsdl:input message="tns:ProcInstCompleteCallBackSoapIn" />
+      <wsdl:output message="tns:ProcInstCompleteCallBackSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBackForFinanceWillSignNo">
+      <wsdl:input message="tns:ProcInstCompleteCallBackForFinanceWillSignNoSoapIn" />
+      <wsdl:output message="tns:ProcInstCompleteCallBackForFinanceWillSignNoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WfServiceSoap" type="tns:WfServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveProcInstIDCallBack">
+      <soap:operation soapAction="http://tempuri.org/SaveProcInstIDCallBack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBackV2">
+      <soap:operation soapAction="http://tempuri.org/ProcInstCompleteCallBackV2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBack">
+      <soap:operation soapAction="http://tempuri.org/ProcInstCompleteCallBack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBackForFinanceWillSignNo">
+      <soap:operation soapAction="http://tempuri.org/ProcInstCompleteCallBackForFinanceWillSignNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WfServiceSoap12" type="tns:WfServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveProcInstIDCallBack">
+      <soap12:operation soapAction="http://tempuri.org/SaveProcInstIDCallBack" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBackV2">
+      <soap12:operation soapAction="http://tempuri.org/ProcInstCompleteCallBackV2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBack">
+      <soap12:operation soapAction="http://tempuri.org/ProcInstCompleteCallBack" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcInstCompleteCallBackForFinanceWillSignNo">
+      <soap12:operation soapAction="http://tempuri.org/ProcInstCompleteCallBackForFinanceWillSignNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WfService">
+    <wsdl:port name="WfServiceSoap" binding="tns:WfServiceSoap">
+      <soap:address location="http://10.240.248.33:9568/Service/WfService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WfServiceSoap12" binding="tns:WfServiceSoap12">
+      <soap12:address location="http://10.240.248.33:9568/Service/WfService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

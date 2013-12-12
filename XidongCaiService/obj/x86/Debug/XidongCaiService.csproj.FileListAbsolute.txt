@@ -1,0 +1,14 @@
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\XidongCaiService.exe
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\XidongCaiService.pdb
+E:\快盘\project\XidongCaiService\XidongCaiService\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\快盘\project\XidongCaiService\XidongCaiService\obj\x86\Debug\XidongCaiService.exe
+E:\快盘\project\XidongCaiService\XidongCaiService\obj\x86\Debug\XidongCaiService.pdb
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\XidongCaiService.exe.config
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\Helper.dll
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\HtmlAgilityPack.dll
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\MySql.Data.dll
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\Newtonsoft.Json.dll
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\Helper.pdb
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\Newtonsoft.Json.xml
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\NVelocity.dll
+E:\快盘\project\XidongCaiService\XidongCaiService\bin\Debug\NVelocity.xml
